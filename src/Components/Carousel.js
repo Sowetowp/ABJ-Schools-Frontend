@@ -23,7 +23,7 @@ const Carousel = () => {
                 <img src={img} alt="Los Angeles" className="d-block jh" style={{width:"100%"}}/>
                 <div className="carousel-caption cetafcs">
                     <h3 className='cwt m-0 p-0'>Welcome to</h3>
-                    <p className='cacsi'>Air Force Comprehensive School Ibadan</p>
+                    <p className='cacsi'>ABJ GROUP OF SCHOOLS</p>
                     <button className='ctatb btn btn-sm btn-outline-info'>Take A Tour</button>
                 </div>
             </div>
@@ -32,7 +32,7 @@ const Carousel = () => {
                 <img src={img1} alt="Chicago" className="d-block jh" style={{width:"100%"}}/>
                 <div className="carousel-caption cetafcs">
                     <h3 className='cwt m-0 p-0'>Welcome to</h3>
-                    <p className='cacsi'>Air Force Comprehensive School Ibadan</p>
+                    <p className='cacsi'>ABJ GROUP OF SCHOOLS</p>
                     <button className='ctatb btn btn-sm btn-outline-info'>Take A Tour</button>
                 </div>
             </div>
@@ -41,7 +41,7 @@ const Carousel = () => {
                 <img src={img2} alt="New York" className="d-block jh" style={{width:"100%"}}/>
                 <div className="carousel-caption cetafcs">
                     <h3 className='cwt m-0 p-0'>Welcome to</h3>
-                    <p className='cacsi'>Air Force Comprehensive School Ibadan</p>
+                    <p className='cacsi'>ABJ GROUP OF SCHOOLS</p>
                     <button className='ctatb btn btn-sm btn-outline-info'>Take A Tour</button>
                 </div>  
             </div>

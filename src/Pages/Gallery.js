@@ -58,7 +58,7 @@ const Gallery = () => {
                 <div className='galjk'>
                     <NavBar/>
                     <div className='pt-5 text-center'>
-                        <p className='galgals'>Gallery A.F.C.S Ibadan</p>
+                        <p className='galgals'>Gallery ABJ School</p>
                         <p className='gallorim'>Immerse in memorable moments and shared experiences through captivating images in our gallery. Relive achievements and the vibrant spirit of our dynamic school life.</p>
                     </div>
                 </div>

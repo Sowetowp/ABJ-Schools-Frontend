@@ -42,7 +42,7 @@ const Sub = () => {
             <div className='container-fluid subbgi'>
                 <div className='row subjk p-5'>
                     <div className='col-xl-6 subic'>
-                        <p className='m-0 subp1'>Get The Latest News From A.F.C.S Ibadan!</p>
+                        <p className='m-0 subp1'>Get The Latest News From ABJ School!</p>
                         <p className='m-0 subp2'>Join our newsletter now</p>
                     </div>
                     <div className='col-xl-6'>

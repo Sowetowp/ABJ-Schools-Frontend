@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "../Styles/Sdash.css"
-import logo from "../Assets/Images/logo.png"
+import logo from "../Assets/Images/logo.jpg"
 import offc from "../Assets/Images/iconmonstr-menu-left-lined.svg"
 import offc2 from "../Assets/Images/iconmonstr-menu-right-lined.svg"
 import test1 from "../Assets/Images/testimonial-img-2.jpg"
@@ -231,7 +231,7 @@ const AdminDashboard = () => {
                 </div>
                 <div className='sdashcori row px-3 border-top' style={{height:"7%",alignItems:"center"}}>
                     <div className='col-xl-6 sdashtomof'>
-                        <p className='sdashpoweredb2 mb-0'>Copyright 2022 - 2023 - © <i className='sdashpoweredb'>A.F.C.S Ibadan</i></p>
+                        <p className='sdashpoweredb2 mb-0'>Copyright 2022 - 2023 - © <i className='sdashpoweredb'>ABJ School</i></p>
                     </div>
                     <span className='col-xl-6 text-end sdashtomof'>
                         <p className='sdashpoweredb mb-0'>Powered By inTheBayou Technologies</p>

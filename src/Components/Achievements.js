@@ -2,19 +2,19 @@ import React, { useEffect, useState } from 'react'
 import "../Styles/Achi.css"
 
 const Achievements = () => {
-    const [count, setCount] = useState(1991)
+    const [count, setCount] = useState(2002)
     const [count1, setCount1] = useState(0)
     const [count2, setCount2] = useState(0)
     const [count3, setCount3] = useState(0)
     useEffect(() => {
         const interval = setInterval(() => {
-          if (count < 1991) {
+          if (count < 2002) {
             setCount(count + 1);
           }
-          if (count1 < 934) {
+          if (count1 < 56) {
             setCount1(count1 + 1);
           }
-          if (count2 < 65409) {
+          if (count2 < 16000) {
             setCount2(count2 + 25);
           }
           if (count3 < 289) {

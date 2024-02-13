@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import "../Styles/Oln.css"
-import logo from "../Assets/Images/logo.png"
+import logo from "../Assets/Images/logo.jpg"
 import news1 from "../Assets/Images/Cape_Town_Stadium_Aerial_View-271x243.jpg"
 import news2 from "../Assets/Images/shutterstock_287328122-271x243.jpeg"
 import news3 from "../Assets/Images/shutterstock_367274759-271x243.jpeg"

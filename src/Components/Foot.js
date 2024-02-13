@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Styles/Foot.css"
-import logo from "../Assets/Images/logo.png"
+import logo from "../Assets/Images/logo.jpg"
 import fb from "../Assets/Images/iconmonstr-facebook-1 (1).svg"
 import lin from "../Assets/Images/iconmonstr-linkedin-1 (1).svg"
 import cl from "../Assets/Images/iconmonstr-cloud-1.svg"

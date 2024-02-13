@@ -42,7 +42,7 @@ const WalletFunding = () => {
                                     <div className={`mt-4 ${selectedValue === "remita" ? "d-block" : "d-none"}`}>
                                         <p className='swalfunp2'>Payment Instructions</p>
                                         <p className='swalfunremitap1 mb-0'><i className="fas sdashhic2 fa-arrow-right"></i> Confirm your payment option by clicking the <span>"Begin Payment Process"</span> button.</p>
-                                        <p className='swalfunremitap1 mb-0 mt-1'><i className="fas sdashhic2 fa-arrow-right"></i> You may read the <a href=''>A.F.C.S WebPAY FAQs/Tips</a> before you proceed.</p>
+                                        <p className='swalfunremitap1 mb-0 mt-1'><i className="fas sdashhic2 fa-arrow-right"></i> You may read the <a href=''>ABJ WebPAY FAQs/Tips</a> before you proceed.</p>
                                         <p className='swalfunremitap1 mb-0 mt-1'><i className="fas sdashhic2 fa-arrow-right"></i> Please take note of your <span>Remita Reference Number (RRR)</span> in the Payment Summary section.</p>
                                         <p className='swalfunremitap1 mb-0 mt-1'><i className="fas sdashhic2 fa-arrow-right"></i> Confirm your payment by clicking the <span>"Pay Now"</span> button, otherwise click the <span>"Cancel"</span> button to abort.</p>
                                         <p className='swalfunremitap1 mb-0 mt-1'><i className="fas sdashhic2 fa-arrow-right"></i> Ensure you have a Debit/ATM card that has been enabled for online transactions, specifying the <span>"Card Number", "Expiry Date", "Card PIN" and "CVV2 Code".</span></p>
