@@ -81,8 +81,8 @@ const AdminDashboard = () => {
                             <a className="navbar-brand d-flex" href='/'>
                                 <img className='nbnbl2' src={logo}/>
                                 <div className='nbsnt2'>
-                                    <p className='p-0 m-0 nbaf2'>AIR FORCE</p>
-                                    <p className='p-0 m-0 nbcs2'>COMPREHENSIVE SCHOOL</p>
+                                    <p className='p-0 m-0 nbaf2'>ABJ</p>
+                                    <p className='p-0 m-0 nbcs2'>SCHOOLS</p>
                                 </div>
                             </a>
                             <a onClick={toggle}><img className='mx-2 sdashoffc' src={offc}/></a>

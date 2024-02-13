@@ -85,12 +85,12 @@ const TeacherDashboard = () => {
             <div className='sdashd1'>
                 <nav className="navbar navbar-expand-sm py-0" style={{height:"15%"}}>
                     <div className="container-fluid px-0 border-bottom">
-                        <div className='d-flex border-end py-3 px-3 col-xl-3' style={{alignItems:"center"}}>
+                        <div className='d-flex border-end py-3 px-3 col-xl-3' style={{alignItems:"center",justifyContent:"space-between"}}>
                             <a className="navbar-brand d-flex" href='/'>
                                 <img className='nbnbl2' src={logo}/>
                                 <div className='nbsnt2'>
-                                    <p className='p-0 m-0 nbaf2'>AIR FORCE</p>
-                                    <p className='p-0 m-0 nbcs2'>COMPREHENSIVE SCHOOL</p>
+                                    <p className='p-0 m-0 nbaf2'>ABJ</p>
+                                    <p className='p-0 m-0 nbcs2'>SCHOOLS</p>
                                 </div>
                             </a>
                             <a onClick={toggle}><img className='mx-2 sdashoffc' src={offc}/></a>
