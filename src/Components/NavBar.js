@@ -19,9 +19,9 @@ const NavBar = () => {
             <div className="container-fluid">
                 <a className="navbar-brand d-flex" href='/'>
                     <img className='nbnbl' src={logo}/>
-                    <div className='nbsnt'>
+                    <div className='nbsnt '>
                         <p className='p-0 m-0 nbaf'>ABJ</p>
-                        <p className='p-0 m-0 nbcs'>GROUP OF SCHOOLS</p>
+                        <p className='p-0 m-0 nbcs'>SCHOOLS</p>
                         <p className='p-0 m-0 nbafr'>ABJ</p>
                     </div>
                 </a>

@@ -15,8 +15,8 @@ const Foot = () => {
                         <span className='d-flex'>
                             <img className='footimg' src={logo}/>
                             <div>
-                                <p className='footafp m-0'>AIR FORCE</p>
-                                <p className='m-0 footcs'>COMPREHENSIVE SCHOOL</p>
+                                <p className='footafp m-0'>ABJ</p>
+                                <p className='m-0 footcs'>SCHOOLS</p>
                             </div>
                         </span>
                     </div>
