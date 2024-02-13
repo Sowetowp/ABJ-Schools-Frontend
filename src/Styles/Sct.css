@@ -1,0 +1,148 @@
+.sctdjk{
+    line-height: 33px;
+    background-color: rgba(212, 43, 71, 0.884);
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    padding-top: 130px;
+    transition: background-color 1s ease;
+}
+.sctcol{
+    padding: 0%;
+    height: 230px;
+    background-image: url(../Assets/Images/how-to-choose-a-guitar-playing-style-388x370.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sctp1{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+.sctp2{
+    font-size: 35px;
+    font-weight: 300;
+    color: white;
+}
+.sctdjk1{
+    line-height: 33px;
+    background-color: rgba(255, 145, 0, 0.884);
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    padding-top: 130px;
+    transition: background-color 1s ease;
+}
+.sctcol1{
+    padding: 0%;
+    height: 230px;
+    background-image: url(../Assets/Images/shutterstock_84924781-388x370.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sctp11{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+.sctp21{
+    font-size: 35px;
+    font-weight: 300;
+    color: white;
+}
+.sctdjk2{
+    line-height: 33px;
+    background-color: rgba(50, 222, 222, 0.884);
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    padding-top: 130px;
+    transition: background-color 1s ease;
+}
+.sctcol2{
+    padding: 0%;
+    height: 230px;
+    background-image: url(../Assets/Images/about-us-img-388x370.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sctp12{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+.sctp22{
+    font-size: 35px;
+    font-weight: 300;
+    color: white;
+}
+.sctdjk:hover{
+    background-color: rgba(212, 43, 71, 0.603);
+}
+.sctdjk1:hover{
+    background-color: rgba(255, 145, 0, 0.514);
+}
+.sctdjk2:hover{
+    background-color: rgba(50, 222, 222, 0.528);
+}
+.scthm{
+    margin-top: -70px;
+    position: relative;
+}
+@media screen and (min-width: 1025px) {
+    .scthm{
+        margin-top: -70px;
+        position: relative;
+    }
+}
+@media screen and (max-width: 768px) and (min-height: 1024px) {
+    .scthm{
+        margin-top: -70px;
+        position: relative;
+    }
+    .sctdjk{
+        padding-left: 5px;
+    }
+    .sctdjk1{
+        padding-left: 5px;
+    }
+    .sctdjk2{
+        padding-left: 5px;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) {
+    .scthm{
+        margin-top: -70px;
+        position: relative;
+    }
+    .sctdjk{
+        padding-left: 10px;
+    }
+    .sctdjk1{
+        padding-left: 10px;
+    }
+    .sctdjk2{
+        padding-left: 10px;
+    }
+    .sctp11{
+        font-size: 25px;
+        font-weight: 700;
+        color: white;
+    }
+    .sctp1{
+        font-size: 25px;
+        font-weight: 700;
+        color: white;
+    }
+    .sctp12{
+        font-size: 25px;
+        font-weight: 700;
+        color: white;
+    }
+} 
+@media screen and (max-width: 480px) {
+    .scthm{
+        margin-top: 0px;
+        position: relative;
+    }
+}

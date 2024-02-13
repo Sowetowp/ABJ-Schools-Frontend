@@ -1,0 +1,168 @@
+.conbgi{
+    background-image: url(../Assets/Images/login-bg.jpg);
+}
+.conjk{
+    /* height: 120vh; */
+    background-color: rgba(15, 79, 163, 0.914);
+    padding-bottom: 320px;
+}
+.congit{
+    color: white;
+    font-size: 40px;
+}
+.congit2{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+.conlid{
+    font-size: 28px;
+    color: white;
+    font-weight: lighter;
+    width: 60%;
+    margin: auto;
+}
+.conche{
+    margin-top: 70px;
+    text-align: center;
+}
+.confd{
+    background-color: white;
+    margin-top: -250px;
+    padding: 100px;
+    box-shadow: 0px 1px 5px rgb(198, 198, 198);
+}
+.consmtu{
+    font-size: 25px;
+}
+.conln{
+    font-size: 18px;
+    color: rgb(196, 196, 196);
+}
+.coninput{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: solid 1px rgb(182, 182, 182);
+}
+.coninput2{
+    border: none;
+    outline: none;
+}
+.coninputd{
+    width: 100%;
+    border-bottom: solid 1px rgb(182, 182, 182);
+    align-items: center;
+    position: relative;
+}
+.logeyei{
+    color: rgb(15, 79, 163);
+}
+.coninputd::before {
+    content: ''; /* Create a pseudo-element before the input */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white; /* Set the pseudo-element's background color to white */
+    z-index: -1; /* Position it behind the input */
+  }
+.coninputd input{
+    width: 98%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.confobut{
+    background-color: rgb(253, 181, 49);
+    border-radius: 7px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-bottom: solid 5px rgb(253, 168, 10);
+    width: 30%;
+    margin: auto;
+}
+.conbglf{
+    background-color: rgb(0, 55, 127);
+    padding: 50px;
+    margin-top: 70px;
+}
+.conconi{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.conloa{
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(207, 207, 207);
+}
+.conloimgg{
+    width: 30px;
+    padding-right: 10px;
+}
+@media screen and (max-width: 480px) {
+    .congit{
+        color: white;
+        font-size: 35px;
+    }
+    .conlid{
+        font-size: 20px;
+        color: white;
+        font-weight: lighter;
+        width: 100%;
+    }
+    .conjk{
+        /* height: 55vh; */
+    }    
+    .confd{
+        /* margin-top: 0px; */
+    }
+    .confd{
+        padding: 20px;
+        padding-top: 30px;
+    }
+    .conloa{
+        font-size: 13px;
+        font-weight: lighter;
+        color: rgb(207, 207, 207);
+    }
+    .conbglf{
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 768px) and (min-height: 1024px) {
+    .conjk{
+        /* height: 80vh; */
+    } 
+    .confd{
+        /* margin-top: -300px; */
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) {
+    .conjk{
+        /* height: 80vh; */
+    } 
+    .confd{
+        /* margin-top: -300px; */
+    }
+}
+@media screen and (max-width: 280px) {
+    .conche{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .congit{
+        font-size: 34px;
+    }
+    .conlid{
+        font-size: 15px;
+        color: white;
+        font-weight: lighter;
+        width: 100%;
+    }
+    .conjk{
+        /* height: 60vh; */
+    }
+}

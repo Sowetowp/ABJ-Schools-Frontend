@@ -1,0 +1,154 @@
+.admhbg{
+    background-image: url(../Assets/Images/heading.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.admjk{
+    background-color: rgba(15, 79, 163, 0.866);
+}
+.admpljk{
+    background-color: rgba(15, 79, 163, 0.611);
+    color: white;
+}
+.admpadm{
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+    margin-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+.admwhs{
+    background-color: white;
+    padding-top: 100px;
+}
+.admp1whs{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+.admp2whs{
+    font-size: 15px;
+    color: #6a6a6a;
+    text-align: center;
+}
+.admpgt{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+.admp2gt{
+    font-size: 15px;
+    color: #6a6a6a;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: lighter;
+}
+.admingtea{
+    width: 55px;
+}
+.parallax{
+    background-image: url("../Assets/Images/Depositphotos_100911654_original.jpg");
+    /* min-height: 200px;  */
+    background-attachment: fixed;
+    background-position: 0px 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2{
+    background-image: url("../Assets/Images/6.jpg");
+    /* min-height: 200px;  */
+    background-attachment: fixed;
+    background-position: 0px 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.admmt7y{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 100px;
+    text-align: center;
+}
+.admliimg{
+    width: 50px;
+}
+.admp100{
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 0%;
+}
+.admppttu{
+    font-size: 15px;
+}
+.admapimg{
+    width: 100%;
+}
+.admappbgc{
+    background-color: rgb(243, 243, 243);
+}
+.admaph2{
+    color: rgb(227, 42, 42);
+}
+.admaph21{
+    color: rgb(15, 79, 163);
+}
+.admpbi{
+    font-size: 14px;
+    color: #858585;
+}
+.admaph22{
+    color: rgb(25, 3, 69);
+}
+.admaph23{
+    color: rgb(104, 153, 104);
+}
+.admsednec{
+    color: #6c6c6c;
+    font-size: 17px;
+}
+.admsbatt{
+    background-color: rgb(15, 79, 163);
+    height: 5px;
+    width: 40px;
+}
+.admh3gh{
+    color: #000;
+}
+.admh3gh2{
+    color: #6c6c6c;
+}
+.admdpimg{
+    border-radius: 50%;
+    width: 75px;
+}
+.admdffai{
+    align-items: center;
+}
+.admdownarrow{
+    width: 25px;
+}
+.admtogbtn{
+    width: 100%;
+    justify-content: space-between;
+    border: none;
+    background-color: transparent;
+}
+.admwcai{
+    font-size: 17px;
+}
+.admloimppf{
+    font-size: 16px;
+    color: #6c6c6c;
+}
+.subbtn{
+    background-color: rgb(253, 181, 49);
+    border-radius: 25px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-bottom: solid 5px rgb(253, 168, 10);
+}

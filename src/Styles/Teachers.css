@@ -1,0 +1,89 @@
+.teaimg{
+    width: 100%;
+    height: 215px;
+    object-fit: cover;
+}
+.teacon{
+    margin-top: 50px;
+}
+.teaname{
+    font-weight: 600;
+    font-size: 20px;
+}
+.teandi{
+    min-height: 130px;
+    border-bottom: solid 4px rgba(15, 79, 163, 0.985);
+    background-color: white;
+    margin-top: -45px;
+    position: relative;
+}
+.tealm{
+    justify-content: space-between;
+}
+.tealm hr{
+    width: 43%;
+}
+.tealm a{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #b2b1b1;
+    text-decoration: none;
+    font-size: 17px;
+}
+.tealm img{
+    width: 10px;
+}
+@media screen and (max-width: 480px) {
+    .tealm a{
+        font-size: 10px;
+        width: 20%;
+    }
+    .tealm hr{
+        width: 34%;
+    }
+    .teaimg{
+        height: 260px;
+    }
+    .teaname{
+        font-weight: 600;
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 280px) {
+    .tealm a{
+        font-size: 9px;
+        width: 29%;
+    }
+    .tealm hr{
+        width: 31%;
+    }
+    .tealm img{
+        width: 7px;
+    }
+    .teaimg{
+        height: 190px;
+    }
+    .teaname{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 768px) and (min-height: 1024px) {
+    .tealm a{
+        font-size: 10px;
+        width: 20%;
+    }
+    .tealm hr{
+        width: 34%;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) {
+    .tealm a{
+        font-size: 13px;
+        width: 16%;
+    }
+    .tealm hr{
+        width: 35%;
+    }
+}  

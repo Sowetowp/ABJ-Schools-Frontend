@@ -1,0 +1,126 @@
+.footmain{
+    background-color: rgb(9, 69, 147);
+}
+.footimg{
+    width: 60px;
+}
+.footafp{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.footcs{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
+}
+.footdeep{
+    background-color: rgb(0, 55, 127);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footdeeper{
+    background-color: rgb(8, 40, 110);
+    display: flex;
+    justify-content: center;
+    color: rgb(219, 219, 219);
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.foothead{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+.footmain ul{
+    list-style: none;
+}
+.footli{
+    color: rgb(216, 216, 216);
+    font-size: 14px;
+    font-weight: lighter;
+}
+.foottdacc{
+    text-decoration: none;
+    color: white;
+}
+.footfbk{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: rgba(241, 241, 241, 0.668);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footfbk img{
+    width: 15px;
+}
+.footsos{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+@media screen and (max-width: 480px) {
+    .footsos{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-top: solid 1px white;
+    }
+    .footdeep{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .footdeeper{
+        font-size: 10px;
+    }
+    .foothead{
+        font-size: 12px;
+    }
+    .footli{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 768px) and (min-height: 1024px) {
+    .footsos{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-top: solid 1px white;
+    }
+    .footdeep{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .footdeeper{
+        font-size: 10px;
+    }
+    .foothead{
+        font-size: 12px;
+    }
+    .footli{
+        font-size: 10px;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) {
+    .footsos{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-top: solid 1px white;
+    }
+    .footdeep{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .footdeeper{
+        font-size: 10px;
+    }
+    .foothead{
+        font-size: 12px;
+    }
+    .footli{
+        font-size: 10px;
+    }
+}  

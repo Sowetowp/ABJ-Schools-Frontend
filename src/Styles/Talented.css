@@ -1,0 +1,127 @@
+.tabg{
+    background-image: url(../Assets/Images/call-to-action-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tajk{
+    background-color: rgba(15, 79, 163, 0.895);
+}
+.taosat{
+    margin: auto;
+    color: white;
+    padding-left:50px;
+} 
+.taosatp1{
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.taosatp2{
+    font-size: 27px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.talmb{
+    border-radius: 7px;
+    height: fit-content;
+    margin: auto;
+    background-color: rgb(253, 181, 49);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-bottom: solid 5px rgb(251, 170, 18);
+}
+.taimg{
+    width: 140px;
+}
+@media screen and (max-width: 480px) {
+    .tabg{
+        text-align: center;
+    }
+    .taosat{
+        padding-left: 0%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .taosatp1{
+        font-size: 25px;
+    }
+    .taosatp2{
+        font-size: 24px;
+    }
+    .taimg{
+        margin: auto;
+    }
+    .talmb{
+        width: 160px;
+    }
+}
+@media screen and (max-width: 768px) and (min-height: 1024px) {
+    .tabg{
+        text-align: center;
+    }
+    .taosat{
+        padding-left: 0%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 100%;
+    }
+    .taosatp1{
+        font-size: 25px;
+    }
+    .taosatp2{
+        font-size: 24px;
+    }
+    .taimg{
+        margin: auto;
+    }
+    .talmb{
+        width: 160px;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) {
+    .tabg{
+        text-align: center;
+    }
+    .taosat{
+        padding-left: 0%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 100%;
+    }
+    .taosatp1{
+        font-size: 25px;
+    }
+    .taosatp2{
+        font-size: 24px;
+    }
+    .taimg{
+        margin: auto;
+    }
+    .talmb{
+        width: 160px;
+    }
+}  
+@media screen and (min-width: 912px) and (min-height: 1368px) {
+    .tabg{
+        text-align: center;
+    }
+    .taosat{
+        padding-left: 0%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 100%;
+    }
+    .taosatp1{
+        font-size: 25px;
+    }
+    .taosatp2{
+        font-size: 24px;
+    }
+    .taimg{
+        margin: auto;
+    }
+    .talmb{
+        width: 160px;
+    }
+}

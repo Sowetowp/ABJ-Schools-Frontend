@@ -1,0 +1,30 @@
+.fwhf{
+    font-size: 28px;
+}
+.fuosat{
+    font-size: 15px;
+    width: 50%;
+    margin-top: 40px;
+    color: #8c8c8c;
+    margin: auto;
+}
+.felo{
+    font-size: 16px;
+    margin-top: 40px;
+    font-weight: lighter;
+    color: #656565;
+    width: 80%;
+    margin: auto;
+}
+.fuem{
+    font-size: 25px;
+    font-weight: 300;
+}
+@media screen and (max-width: 480px) {
+    .fuosat{
+        width: 100%;
+    }
+    .fwhf{
+        font-size: 25px;
+    }
+}

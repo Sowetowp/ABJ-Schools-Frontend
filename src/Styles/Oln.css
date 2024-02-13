@@ -1,0 +1,57 @@
+.olnoln{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.olniat{
+    align-items: center;
+}
+/* .olnspt2{
+    background-color: rgba(15, 79, 163, 0.566);
+    border: none;
+} */
+.olnaad{
+    font-size: 13px;
+    color: #6a6868;
+    align-items: center;
+}
+.olnjcp{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(53, 53, 53);
+}
+.olnjcp1{
+    font-size: 12px;
+    color: #6a6868;
+}
+.olncardb{
+    height: 213px;
+    overflow: hidden;
+}
+.olnjcp2{
+    font-size: 16px;
+    color: goldenrod;
+    text-decoration: none;
+}
+.olnspt{
+    margin-top: 10px;
+}
+@media screen and (max-width: 480px) {
+    .olnspt{
+        padding-top: 15px;
+    }
+}
+@media screen and (max-width: 768px) and (min-height: 1024px) {
+    .olnspt{
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) {
+    .olnspt{
+        margin-top: 20px;
+    }
+}  
+@media screen and (min-width: 912px) and (min-height: 1368px) {
+   
+}

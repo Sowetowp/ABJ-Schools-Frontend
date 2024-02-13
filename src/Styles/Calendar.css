@@ -1,0 +1,60 @@
+.calehbg{
+    background-image: url(../Assets/Images/academics-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.calehjk{
+    background-color: rgba(15, 79, 163, 0.914);
+}
+.calacal{
+    color: white;
+    font-size: 42px;
+    font-weight: lighter;
+    margin-top: 50px;
+}
+.cal2020{
+    color: rgb(228, 228, 228);
+    font-size: 22px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+.calselect{
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    font-weight: lighter;
+    width: 150px;
+    margin: auto;
+}
+.cale2018{
+    font-weight: 700;
+    font-size: 45px;
+}
+.caleshr{
+    height: 3px;
+    background-color: rgb(15, 79, 163);
+    width: 90px;
+}
+.caleimgap{
+    align-items: center;
+}
+.caleimgap img{
+    width: 19px;
+}
+.caledec{
+    font-weight: 700;
+    font-size: 19px;
+    margin-top: 20px;
+}
+.calefdow{
+    font-size: 14px;
+    color: #6c6c6c;
+}
+@media screen and (max-width: 480px) {
+    .cale2018{
+        font-weight: 700;
+        font-size: 30px;
+    }
+}

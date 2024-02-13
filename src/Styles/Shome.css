@@ -1,0 +1,171 @@
+.shopsash{
+    font-weight: 600;
+    font-size: 16px;
+}
+.shojk1{
+    background-color: rgba(15, 79, 163, 0.924);
+    height: 100%;
+    width: 100%;
+}
+.showegif{
+    background-image: url(../Assets/Images/Z6W8.gif);
+}
+.showam{
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+}
+.showam2{
+    font-size: 12px;
+    color: #f2f2f2;
+    text-align: center;
+}
+.llll{
+    width: 20px;
+    object-fit: cover;
+}
+.shotpas{
+    background-image: url(../Assets/Images/iconmonstr-credit-card-thin.svg);
+    background-repeat: no-repeat;
+    background-position: 180px 5px;
+    background-size: 100px;
+}
+.shoccibjk2{
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.794);
+    border-radius: 3px;
+}
+.shoccibjk23{
+    align-items: center;
+    background-color: rgba(253, 182, 49, 0.87);
+    border-radius: 3px;
+}
+.shotdasp1{
+    color: white;
+    font-size: 13px;
+}
+.shotdasp2{
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+.shoccibjk{
+    align-items: center;
+    background-color: rgba(0, 128, 0, 0.872);
+    border-radius: 4px;
+}
+.shogtfpa{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    text-align: end;
+}
+.shogtfpajk{
+    background-color: rgb(253, 181, 49);
+    border-radius: 3px;
+    width: fit-content;
+    margin-left: auto;
+}
+.shopendis{
+    font-size: 16px;
+    font-weight: 600;
+}
+.shopendisnoti{
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(81, 123, 81);
+    border-radius: 4px;
+}
+.shoboxshfnoti{
+    box-shadow: 0px 0px 10px #ddd;
+}
+.shopendisnoti2{
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(15, 79, 163, 0.924);
+    border-radius: 4px;
+}
+.shoviewall{
+    background-color: rgb(253, 181, 49);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.shonoipeat{
+    font-size: 12px;
+    font-weight: lighter;
+}
+.shoheighonoti{
+    max-height: 185px;
+    overflow-y: scroll;
+}
+.shoheighonoti::-webkit-scrollbar {
+    width: 2px;
+}
+.shoheighonoti::-webkit-scrollbar-track {
+    background: transparent;
+}
+.shoheighonoti::-webkit-scrollbar-thumb {
+    background: rgba(56, 105, 169, 0.67);
+    border-radius: 6px;
+}
+.shoheighonoti::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.shoiwtrsb::-webkit-scrollbar {
+    height: 2px;
+}
+.shoiwtrsb::-webkit-scrollbar-track {
+    background: transparent;
+}
+.shoiwtrsb::-webkit-scrollbar-thumb {
+    background: rgba(56, 105, 169, 0.67);
+    border-radius: 6px;
+}
+.shoiwtrsb::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.shoiwtrsb2{
+    box-shadow: 0px 0px 10px #ddd;
+}
+.shoiwtrsb th{
+    font-size: 10px;
+    color: rgb(15, 79, 163);
+    text-align: center;
+}
+.shoiwtrsb td{
+    font-size: 10px;
+    text-align: center;
+}
+.subbtn2{
+    background-color: rgb(253, 181, 49);
+    border-radius: 7px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-bottom: solid 5px rgb(253, 168, 10);
+    width: 100%;
+}
+.subbtn3{
+    background-color: rgb(253, 181, 49);
+    border-radius: 7px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-bottom: solid 5px rgb(253, 168, 10);
+}
+.ateafo2 h3{
+    color: rgb(15, 79, 163);
+}
+.swalfunselact{
+    font-size: 12px;
+    font-weight: lighter;
+}
+.upreforminput{
+    outline: none;
+    background-color: transparent;
+    border-radius: 3px;
+}

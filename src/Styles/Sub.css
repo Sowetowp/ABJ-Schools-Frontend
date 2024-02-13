@@ -1,0 +1,108 @@
+.subbgi{
+    background-image: url(../Assets/Images/newsletter-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subjk{
+    background-color: rgba(15, 79, 163, 0.895);
+}
+.subp1{
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+.subp2{
+    font-size: 22px;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 2px;
+}
+.subinp{
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 60%;
+    border-radius: 10px;
+}
+.subinp::placeholder{
+    font-size: 15px;
+    font-weight: 300;
+}
+.subbtn{
+    background-color: rgb(253, 181, 49);
+    border-radius: 7px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-bottom: solid 5px rgb(253, 168, 10);
+    margin-left: 20px;
+    width: 35%;
+}
+@media screen and (max-width: 480px) {
+    .subjk{
+        text-align: center;
+    }
+    .subinp{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .subbtn{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0%;
+    }
+    .subp1{
+        font-size: 23px;
+    }
+    .subp2{
+        font-size: 17px;
+    }
+    .subinp::placeholder{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 768px) and (min-height: 1024px) {
+    .subinp{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .subbtn{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0%;
+    }
+    .subic{
+        height: 100%;
+        margin: auto;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) {
+    .subinp{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .subbtn{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0%;
+    }
+    .subic{
+        height: 100%;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 912px) and (min-height: 1368px) {
+    .subinp{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .subbtn{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0%;
+    }
+    .subic{
+        height: 100%;
+        margin: auto;
+    }
+}

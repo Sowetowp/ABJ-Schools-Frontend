@@ -1,0 +1,121 @@
+let cacheData = "appV1"
+this.addEventListener("install", (event) => {
+    event.waitUntil(
+        caches.open(cacheData).then((cache) => {
+            cache.addAll([
+                "/static/js/bundle.js",
+                '/static/js/src_Components_Sub_js.chunk.js',
+                "/static/js/src_Assets_Images_iconmonstr-quote-1_svg-src_Assets_Images_testimonial-img-1_jpg-src_Assets_I-5e1ccd.chunk.js",
+                "/static/js/vendors-node_modules_react-awesome-reveal_dist_index_js.chunk.js",
+                "/logo192.png",
+                "/static/media/achievements-bg.a6735d4c105edd089dcf.jpg",
+                "/static/media/call-to-action-bg.022a00fb1098d3f98092.jpg",
+                "/static/media/how-to-choose-a-guitar-playing-style-388x370.f69f93bcbfb5afc6e1fe.jpg",
+                "/index.html",
+                "/static/media/how-to-choose-a-guitar-playing-style-767x500.8515c1e4da00ac527908.jpg",
+                "/static/js/src_Pages_Home_js.chunk.js",
+                "/static/media/iconmonstr-cloud-1.f6209bb9a5e027d7013b0a83c62b469e.svg",
+                "/static/media/iconmonstr-facebook-1%20(1).80cd32a246647d9e79486e6df3e8c4f2.svg",
+                "/static/media/iconmonstr-linkedin-1%20(1).7d6fd2aa66920725f73d425a103c0d4e.svg",
+                "/static/media/iconmonstr-quote-1.dfcda6664a9413405a28e818f2ac6fee.svg",
+                "/static/media/iconmonstr-video-15.f07e0f2700d6afb33f0e847acabb944d.svg",
+                "/static/media/logo.cf6d64eb3bf96d899862.png",
+                "/static/media/newsletter-bg.c037d518c570cb007f25.jpg",
+                "static/media/search.b7b91dd98ab03fb2fe3f4e8730b68efe.svg",
+                "static/media/shutterstock_635351252.4fd034f2562a69669692.jpg",
+                "/static/media/shutterstock_726926179.42afd90b94893a3821ff.jpg",
+                "/static/media/shutterstock_84924781-388x370.a33ee23ad38b7d85f9f4.jpg",
+                "/static/media/WhatsApp%20Image%202023-09-28%20at%2022.36.01.6c0f8c057eb346f34488.jpg",
+                "/static/media/about-us-img-388x370.d4a6eef617991e925a60.jpg",
+                "/static/js/src_Pages_Admission_js.chunk.js",
+                "/static/js/bundle.js",
+                "/static/media/iconmonstr-school-30.13702e45c81dd574da7e2d8d4029156e.svg",
+                "/static/media/iconmonstr-book-17.f7291440d12cd1456c18008fa790f105.svg",
+                "/static/media/iconmonstr-school-4.12561e555990a8b8c4cb62a68efd7222.svg",
+                "/static/media/iconmonstr-certificate-12.6ef32ad57737e8b8191e1ce564a43961.svg",
+                "/static/media/iconmonstr-trophy-10.76d182290e6a72eb8881ae9444388399.svg",
+                "/static/media/blackboard-class-svgrepo-com.388e17ffe3bb1ff2977186a530fb4d97.svg",
+                "/static/media/like-svgrepo-com.c72e6631b11c60c4a2d5e35eaa82c3b0.svg",
+                "/static/media/people-svgrepo-com.4977f8a32a83fc6fd7ae60bc2ef765d1.svg",
+                "/static/media/badge-svgrepo-com.6735bac95bfdcf9ed34c6ffdc7cc4066.svg",
+                "/static/media/calendar-svgrepo-com.6ecb0772b445024213b3b1d72d0083a8.svg",
+                "/static/media/smile-svgrepo-com.a9ebb78d29ca5e57a38c9ecb4618e9a8.svg",
+                "/static/media/1-3.7345a114676a053d3f2f.jpg",
+                "/static/media/2-2.54f7b8b62175621d52b0.jpg",
+                "/static/media/3-3.1a52659c6b36ec277894.jpg",
+                "/static/media/4-2.dc734e02528d396912b0.jpg",
+                "/static/media/arrow-down-svgrepo-com.e0cc442dd6e6385cae80df8cdac313b7.svg",
+                "/static/media/heading.211d400dd7d57abc4e4d.jpg",
+                "/static/media/Depositphotos_100911654_original.dff6210d6dbd2f1aa9eb.jpg",
+                "/static/media/6.78a63bf588d21dac0303.jpg",
+                '/about',
+                '/contact',
+                '/gallery',
+                '/teachers',
+                '/calendar',
+                '/news',
+                '/admission',
+                '/passign',
+                '/tlogin',
+                '/alogin',
+                '/slogin',
+                '/shome',
+                '/wfund',
+                '/fpay',
+                '/phistory',
+                '/result',
+                '/spass',
+                '/ahome',
+                '/aallteachers',
+                '/addteacher',
+                '/studentslist',
+                '/addstudent',
+                '/adash',
+                '/postnews',
+                '/allnews',
+                '/postimage',
+                '/allimages',
+                '/createsession',
+                '/veiwcalendar',
+                '/tdash',
+                '/sdash',
+                '/uploadresult',
+                '/tviewresults',
+                '/tpass',
+                '/thome',
+                '/aresult',
+                '/teacher/:id',
+                "/",
+                "/static/media/welcome-img-1.f1b3efac489e52f8f11a.jpg",
+                "https://fonts.cdnfonts.com/s/420/Tangerine_Bold.woff",
+                "https://fonts.cdnfonts.com/s/420/Tangerine-Bold.woff",
+                "https://fonts.cdnfonts.com/s/14188/HelveticaNeue-MediumCond.woff",
+                "https://fonts.cdnfonts.com/s/14188/HelveticaNeue-Medium.woff",
+                "https://fonts.cdnfonts.com/s/14188/HelveticaNeue-ExtBlackCond.woff",
+                "https://fonts.cdnfonts.com/s/14188/HelveticaNeue-Condensed.woff",
+                "https://fonts.cdnfonts.com/s/15860/EBGaramond-Bold.woff",
+                'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css',
+                'https://fonts.cdnfonts.com/css/mersad',
+                'https://fonts.cdnfonts.com/css/helvetica-neue-55',
+                'https://fonts.cdnfonts.com/css/tangerine',
+                'https://fonts.cdnfonts.com/css/eb-garamond-2',
+                '/manifest.json',
+                '/fav.png',
+            ])
+        })
+    )
+})
+
+this.addEventListener("fetch", (event) => {
+    if (!navigator.onLine) {
+        event.respondWith(
+            caches.match(event.request).then((response) => {
+                if (response) {
+                    return response
+                }
+                let requestUrl = event.request.clone();
+                fetch(requestUrl)
+            })
+        )
+    }
+})

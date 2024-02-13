@@ -1,0 +1,153 @@
+.sdashmain{
+    background-color: rgb(205, 220, 240);
+    width: 100vw;
+}
+.sdashd1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+}
+.nbnbl2{
+    width: 40px;
+}
+.nbsnt2{
+    height: 100%;
+    margin: auto;
+    color: rgba(15, 79, 163, 0.914);
+}
+.nbaf2{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 14px;
+}
+.nbcs2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 9px;
+    line-height: 14px;
+}
+.sdashoffc{
+    width: 30px;
+}
+.sdashsignoutb{
+    background-color: rgb(237, 237, 237);
+    border: none;
+    border-radius: 7px;
+    font-size: 14px;
+}
+.sdashnavitem{
+    align-items: center;
+}
+.sdashtogbut{
+    border: none !important;
+    outline: none !important;
+    margin-right: 10px;
+}
+.sdashavatar{
+    border-radius: 50%;
+    width: 90px;
+    border: solid 4px rgb(19, 85, 172);
+    height: 90px;
+    object-fit: cover;
+}
+.sdashcsd{
+    display: flex;
+    width: 100%;
+}
+.sdashcsd span{
+    width: 50%;
+}
+.sdashcss{
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(91, 91, 91);
+}
+.sdashcss2{
+    font-size: 10px;
+}
+.sdashhic{
+    color: rgb(15, 79, 163);
+    width: 40px;
+}
+.sdashhic2{
+    color: rgb(15, 79, 163);
+}
+.sdashselect{
+    align-items: center;
+}
+.sdashselect:hover{
+    background-color: rgb(205, 220, 240) !important;
+    color: white !important;
+    border-radius: 10px;
+}
+.sdashselect:hover .sdashhic{
+    color: white;
+}
+.nbnl2{
+    font-size: 13px;
+    font-weight: 600;
+}
+.sdashhome{
+    font-weight: 600;
+    font-size: 13px;
+    color: #000;
+}
+.sdashscrool{
+    overflow-y: scroll;
+    height: 50%;
+}
+.sdashselect:hover .sdashhome{
+    color: rgb(15, 79, 163);
+}
+.sdashscrool::-webkit-scrollbar {
+    width: 2px;
+}
+.sdashscrool::-webkit-scrollbar-track {
+    background: transparent;
+}
+.sdashscrool::-webkit-scrollbar-thumb {
+    background: rgba(56, 105, 169, 0.67);
+    border-radius: 6px;
+}
+.sdashscrool::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.sdashpoweredb{
+    font-size: 12px;
+    color: rgb(15, 79, 163);
+}
+.sdashpoweredb2{
+    font-size: 12px;
+}
+.sdashiframe{
+    height: 99.9%;
+}
+@media screen and (max-width: 280px) {
+    .nbsnt2{
+        display: none;
+    }
+    .sdashtomof{
+        margin: 0%;
+    }
+}
+@media (max-width: 1200px) {
+    .sdashpoweredb2{
+        text-align: center;
+    }
+    .sdashpoweredb{
+        text-align: center;
+    }
+    .sdashd1{
+        border-radius: 0px;
+    }
+    .sdashmain{
+        height: 100vh;
+    }
+}
+@media (min-width: 1200px) {
+    .sdashmain{
+        padding: 30px;
+        height: 100vh;
+    }
+}

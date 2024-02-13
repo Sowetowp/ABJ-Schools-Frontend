@@ -1,0 +1,65 @@
+.achbb{
+    background-color: rgba(15, 79, 163, 0.895);
+}
+.achbim{
+    background-image: url(../Assets/Images/achievements-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.achiota{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.achnum{
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+}
+.achnum2{
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+}
+@media screen and (max-width: 480px) {
+    .achiota{
+        font-size: 17px;
+        margin: 0%;
+    }
+    .achnum{
+        font-size: 40px;
+        margin: 0%;
+    }
+    .achnum2{
+        font-size: 15px;
+        margin: 0%;
+    }
+}
+@media screen and (max-width: 768px) and (min-height: 1024px) {
+    .achiota{
+        font-size: 17px;
+        margin: 0%;
+    }
+    .achnum{
+        font-size: 40px;
+        margin: 0%;
+    }
+    .achnum2{
+        font-size: 15px;
+        margin: 0%;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) {
+    .achiota{
+        font-size: 17px;
+        margin: 0%;
+    }
+    .achnum{
+        font-size: 40px;
+        margin: 0%;
+    }
+    .achnum2{
+        font-size: 15px;
+        margin: 0%;
+    }
+}  

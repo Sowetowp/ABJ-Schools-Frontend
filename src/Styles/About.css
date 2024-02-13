@@ -1,0 +1,243 @@
+.abthbgi{
+    background-image: url(../Assets/Images/about-us-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.abtjk{
+    background-color: rgba(15, 79, 163, 0.914);
+}
+.abthps{
+    /* height: 80vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+.abthp1{
+    font-size: 40px;
+    color: white;
+}
+.abthp2{
+    font-size: 28px;
+    color: white;
+    font-weight: lighter;
+}
+.abtachp1{
+    font-weight: 800;
+    font-size: 40px;
+    margin: 0%;
+}
+.abtachp2{
+    font-weight: lighter;
+    font-size: 20px;
+    margin: 0%;
+}
+.abtachbox{
+    background-color: white;
+    box-shadow: 0px 5px 10px rgb(198, 198, 198);
+    padding-top: 65px;
+    padding-bottom: 65px;
+    margin-top: -100px;
+}
+.abtwhf{
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+.abtosat{
+    font-weight: lighter;
+    font-size: 16px;
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    color: #7f7f7f;
+}
+.abtiatsr{
+    width: 80%;
+    margin: auto;
+}
+.abtemp2{
+    font-weight: lighter;
+    font-size: 16px;
+    color: #7f7f7f;
+    width: 90%;
+}
+.abtemp{
+    font-size: 20px;
+}
+.abtimgot{
+    background-image: url(../Assets/Images/about-us-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.abttestsp{
+    font-size: 20px;
+    font-weight: lighter;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+.abtcyne{
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.abtsos{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.abttest img{
+    border-radius: 50%;
+    width: 110px;
+    filter: blur(2px);
+    margin: 20px;
+}
+.abttest{
+    margin: auto;
+    width: fit-content;
+}
+.abttest img:hover{
+    border: solid 3px rgb(15, 79, 163);
+    filter: blur(0px);
+}
+.abttest img:focus{
+    border: solid 4px rgb(15, 79, 163);
+    filter: blur(0px);
+}
+.abtcub{
+    background-color: rgb(253, 181, 49);
+    border-radius: 7px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-bottom: solid 5px rgb(253, 168, 10);
+}
+@media screen and (max-width: 480px) {
+    .abthps{
+        /* height: 50vh; */
+    }
+    .abthp1{
+        font-size: 30px;
+        color: white;
+    }
+    .abthp2{
+        font-size: 20px;
+        color: white;
+        font-weight: lighter;
+    }
+    .abtachbox{
+        margin-top: 0%;
+    }
+    .abtachmt{
+        margin-top: 20px;
+    }
+    .abtwhf{
+        font-size: 25px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .abtosat{
+        font-weight: lighter;
+        font-size: 15px;
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+        color: #7f7f7f;
+        text-align: center;
+    }
+    .abtsstac{
+        text-align: center;
+    }
+    .abtemp2{
+        width: 100%;
+    }
+    .abttest{
+        margin: auto;
+        text-align: center;
+    }
+    .abtimgot{
+        height: 20vh;
+    }
+}
+@media screen and (max-width: 768px) and (min-height: 1024px) {
+    .abthps{
+        /* height: 50vh; */
+    }
+    .abtachp1{
+        font-weight: 800;
+        font-size: 30px;
+        margin: 0%;
+    }
+    .abtachp2{
+        font-weight: lighter;
+        font-size: 15px;
+        margin: 0%;
+    }    
+    .abtimgot{
+        height: 20vh;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) {
+    .abthps{
+        /* height: 50vh; */
+    }
+    .abtachp1{
+        font-weight: 800;
+        font-size: 30px;
+        margin: 0%;
+    }
+    .abtachp2{
+        font-weight: lighter;
+        font-size: 15px;
+        margin: 0%;
+    }   
+    .abtimgot{
+        height: 20vh;
+    }
+}
+@media screen and (max-width: 280px) {
+    .abthps{
+        /* height: 40vh; */
+    }
+    .abthp1{
+        font-size: 20px;
+        color: white;
+    }
+    .abthp2{
+        font-size: 15px;
+        color: white;
+        font-weight: lighter;
+    }
+    .abtachbox{
+        margin-top: 0%;
+    }
+    .abtachmt{
+        margin-top: 15px;
+    }
+    .abtachp1{
+        font-weight: 800;
+        font-size: 25px;
+        margin: 0%;
+    }
+    .abtachp2{
+        font-weight: lighter;
+        font-size: 15px;
+        margin: 0%;
+    }   
+    .abtwhf{
+        font-size: 20px;
+        margin-top: 16px;
+        text-align: center;
+    }
+    .abtosat{
+        font-weight: lighter;
+        font-size: 12px;
+        width: 100%;
+        margin: auto;
+        margin-top: 30px;
+        color: #7f7f7f;
+    }
+}
