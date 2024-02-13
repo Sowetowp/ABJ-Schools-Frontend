@@ -211,10 +211,10 @@ const AddStudent = () => {
                                                         onChange={handleHouseChange}
                                                     >
                                                         <option value="">--House--</option>
-                                                        <option value="dornier">Dornier</option>
-                                                        <option value="alpha">Alpha</option>
-                                                        <option value="jaguar">Jaguar</option>
-                                                        <option value="hercules">Hercules</option>
+                                                        <option value="dornier">Yellow</option>
+                                                        <option value="alpha">Green</option>
+                                                        <option value="jaguar">Blue</option>
+                                                        <option value="hercules">Red</option>
                                                     </select>
                                                 </div>
                                                 <div className='col-md-6'>
@@ -266,8 +266,8 @@ const AddStudent = () => {
                                             <i style={{ color: "red", fontSize: "10px" }}>{message}</i>
                                             <div className='row'>
                                                 <div className='col-md-6'>
-                                                    <p className='swalfunp2 mt-3'>Email:</p>
-                                                    <input type='email' value={email} onChange={(e) => setEmail(e.target.value)} className='swalfunselact form-control form-select-sm' />
+                                                    <p className='swalfunp2 mt-3'>StudentID:</p>
+                                                    <input type='text' value={email} onChange={(e) => setEmail(e.target.value)} className='swalfunselact form-control form-select-sm' />
                                                 </div>
                                                 <div className='col-md-6'>
                                                     <p className='swalfunp2 mt-3'>Password:</p>
