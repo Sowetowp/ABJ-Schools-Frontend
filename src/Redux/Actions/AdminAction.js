@@ -276,8 +276,9 @@ export const get_all_classes = () => async (dispatch, getState) => {
 		dispatch({ type: types.GET_ALL_CLASSES_REQUEST })
 		
 		const { data } = await axios.get(`${url}/admin/createclass`)
+		console.log(data)
         if(data.status == "ok"){
-            dispatch({ type: types.GET_ALL_CLASSES_SUCCESS, payload: data.data })
+            dispatch({ type: types.GET_ALL_CLASSES_SUCCESS, payload: data.data, teachers: data.teachers })
         }
 	} catch (error) {
 		const message = error.response
@@ -801,6 +802,35 @@ export const update_fee = (tea) => async (dispatch, getState) => {
 			dispatch(admin_logout())
 		}
 		dispatch({ type: types.UPDATE_FEE_FAIL, payload: message })
+		toast.error(message, { position: 'top-right' })
+	}
+}
+
+export const update_class = (tea) => async (dispatch, getState) => {
+	try {
+		dispatch({ type: types.UPDATE_CLASS_REQUEST })
+		const {
+			adminAuth: { adminDetail },
+		} = getState()
+		const { data } = await axios.post(
+			`${url}/admin/updateclasst`,
+			tea,
+			{ headers: authHeader(adminDetail.token) }
+		)
+        if(data.status == "ok"){
+            dispatch({ type: types.UPDATE_CLASS_SUCCESS, payload: data.data })
+			toast.success('Success!', {
+				position: 'top-right',
+			})
+        }
+	} catch (error) {
+		const message = error.response
+			? error.response.data.message
+			: 'Something went wrong'
+		if (message === 'Not Authorized') {
+			dispatch(admin_logout())
+		}
+		dispatch({ type: types.UPDATE_CLASS_FAIL, payload: message })
 		toast.error(message, { position: 'top-right' })
 	}
 }

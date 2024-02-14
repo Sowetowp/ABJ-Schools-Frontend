@@ -235,6 +235,10 @@ const ChildDetails = Loadable({
 	loader: () => import("./Components/ChildDetails.js"),
 	loading: Preloader,
 });
+const ClassTeacher = Loadable({
+	loader: () => import("./Components/ClassTeacher.js"),
+	loading: Preloader,
+});
 
 function App() {
   return (
@@ -297,6 +301,7 @@ function App() {
           <Route path="/upaid" element={<UpdatePaid/>}/>
           <Route path="/chfee/:param" element={<ChildDetails/>}/>
           <Route path="/addadmin" element={<AddAdmin/>}/>
+          <Route path="/classteacher" element={<ClassTeacher/>}/>
           
           <Route path="/teacher/:id" element={<SingleTeacher/>} exact/>
         </Routes>

@@ -142,6 +142,7 @@ const AdminDashboard = () => {
                                 <div id="demo" className="collapse" style={{backgroundColor:"rgb(237, 237, 237)",borderRadius:"10px"}}>
                                     <ul className="ms-3" style={{listStyle:"none"}}>
                                         <li><a style={{fontSize:"12px"}} className="dropdown-item navddi text-dark py-1" href="/aallteachers" onClick={ window.innerWidth >= 1200 ? null : toggle } target='frame'><i className="fas me-2 sdashhic2 fa-arrow-right"></i>All Teachers</a></li>
+                                        <li><a style={{fontSize:"12px"}} className="dropdown-item navddi text-dark py-1" href="/classteacher" onClick={ window.innerWidth >= 1200 ? null : toggle } target='frame'><i className="fas me-2 sdashhic2 fa-arrow-right"></i>Set Classteacher</a></li>
                                         <li><a style={{fontSize:"12px"}} className="dropdown-item navddi text-dark py-1" href="/addteacher" target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i>Add Teacher</a></li>
                                     </ul>
                                 </div>

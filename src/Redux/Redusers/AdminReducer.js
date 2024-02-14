@@ -200,7 +200,7 @@ export const getAllClassesReducer = (state = {}, action) => {
 		case types.GET_ALL_CLASSES_REQUEST:
 			return { loading: true }
 		case types.GET_ALL_CLASSES_SUCCESS:
-			return { loading: false, classes: action.payload }
+			return { loading: false, classes: action.payload , teachers: action.teachers}
 		case types.GET_ALL_CLASSES_FAIL:
 			return { loading: false, error: action.payload }
         case types.GET_ALL_CLASSES_RESET:
@@ -350,6 +350,21 @@ export const updatePaidReducer = (state = {}, action) => {
 		case types.UPDATE_PAID_FAIL:
 			return { loadingm: false, error: action.payload }
 		case types.UPDATE_PAID_RESET:
+			return {}
+		default:
+			return state
+	}
+}
+
+export const updateClassReducer = (state = {}, action) => {
+	switch (action.type) {
+		case types.UPDATE_CLASS_REQUEST:
+			return { loading: true }
+		case types.UPDATE_CLASS_SUCCESS:
+			return { loading: false, class: action.payload }
+		case types.UPDATE_CLASS_FAIL:
+			return { loading: false, error: action.payload }
+		case types.UPDATE_CLASS_RESET:
 			return {}
 		default:
 			return state

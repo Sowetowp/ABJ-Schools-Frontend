@@ -4,7 +4,7 @@ import { contactUsReducer, postSubReducer } from "./Contactreducer";
 import { getAllSessionReducer, getMainCalendarReducer, getSTEReducer, postEventReducer, postSessionReducer, postTermReducer, searchCalendarReducer } from "./CalendarReducer";
 import { getAllNewsReducer, postNewsReducer } from "./NewsReducer";
 import { getAllImagesReducer, postImageReducer } from "./GalleryReducer";
-import { adminAuthReducer, adminGetAllParentsReducer, adminGetAllStudentsReducer, adminGetAllTeachersReducer, adminGetResultsReducer, adminRegisterReducer, adminSearchImagesReducer, adminSearchNewsReducer, adminSearchParentsReducer, adminSearchStudentsReducer, adminSearchTeachersReducer, eventDeleteReducer, getAllClassesReducer, getAllDepartmentsReducer, getAllPostsReducer, getAllReducer, getAllSubjectsReducer, getBroadsheetReducer, getByClassReducer, getPaymentReducer, imageDeleteReducer, makePaymentReducer, newsDeleteReducer, parentDeleteReducer, parentRegisterReducer, paymentDeleteReducer, resultDeleteReducer, sessionDeleteReducer, studentDeleteReducer, studentRegisterReducer, teacherDeleteReducer, termDeleteReducer, updateFeeReducer, updatePaidReducer } from "./AdminReducer";
+import { adminAuthReducer, adminGetAllParentsReducer, adminGetAllStudentsReducer, adminGetAllTeachersReducer, adminGetResultsReducer, adminRegisterReducer, adminSearchImagesReducer, adminSearchNewsReducer, adminSearchParentsReducer, adminSearchStudentsReducer, adminSearchTeachersReducer, eventDeleteReducer, getAllClassesReducer, getAllDepartmentsReducer, getAllPostsReducer, getAllReducer, getAllSubjectsReducer, getBroadsheetReducer, getByClassReducer, getPaymentReducer, imageDeleteReducer, makePaymentReducer, newsDeleteReducer, parentDeleteReducer, parentRegisterReducer, paymentDeleteReducer, resultDeleteReducer, sessionDeleteReducer, studentDeleteReducer, studentRegisterReducer, teacherDeleteReducer, termDeleteReducer, updateClassReducer, updateFeeReducer, updatePaidReducer } from "./AdminReducer";
 import { getAssignmentReducer, getCaReducer, getExamReducer, getSelfReducer, recAssignmentReducer, recCaReducer, recExamReducer, studentAuthReducer, studentUpdatePasswordReducer } from "./StudentReducer";
 import { parentAuthReducer, parentGetAttendanceReducer, parentUpdatePasswordReducer } from "./ParentReducer";
 
@@ -82,6 +82,7 @@ const rootReducer = combineReducers({
     updateFee: updateFeeReducer,
     getByClass: getByClassReducer,
     updatePaid: updatePaidReducer,
-    getSelf: getSelfReducer
+    getSelf: getSelfReducer,
+    updateClass: updateClassReducer
 })
 export {rootReducer}
