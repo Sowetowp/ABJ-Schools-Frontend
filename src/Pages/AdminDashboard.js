@@ -77,7 +77,7 @@ const AdminDashboard = () => {
             <div className='sdashd1'>
                 <nav className="navbar navbar-expand-sm py-0" style={{height:"15%"}}>
                     <div className="container-fluid px-0 border-bottom">
-                        <div className='d-flex border-end py-3 px-3 col-xl-3' style={{alignItems:"center"}}>
+                        <div className='d-flex border-end py-3 px-3 col-xl-3' style={{alignItems:"center",justifyContent:"space-between"}}>
                             <a className="navbar-brand d-flex" href='/'>
                                 <img className='nbnbl2' src={logo}/>
                                 <div className='nbsnt2'>
