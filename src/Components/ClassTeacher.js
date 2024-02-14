@@ -35,8 +35,8 @@ const ClassTeacher = () => {
         e.preventDefault()
 
         const tea = {
-            classTeacher: _class,
-            teacher
+            _class,
+            classTeacher: teacher
         }
         console.log(tea)
         dispatch(update_class(tea))
