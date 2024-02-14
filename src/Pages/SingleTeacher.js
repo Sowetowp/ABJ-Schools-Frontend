@@ -23,7 +23,7 @@ const SingleTeacher = () => {
   }, [dispatch, id])
   const cld = new Cloudinary({
     cloud: {
-      cloudName: 'dwgwcghfh'
+      cloudName: 'dqnptsuxt'
     }
 })
   return (

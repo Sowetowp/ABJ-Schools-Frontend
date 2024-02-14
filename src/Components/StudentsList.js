@@ -79,7 +79,7 @@ const StudentsList = () => {
     };
     const cld = new Cloudinary({
         cloud: {
-          cloudName: 'dwgwcghfh'
+          cloudName: 'dqnptsuxt'
         }
     })
     const deleteUserHandler = (e, id) => {

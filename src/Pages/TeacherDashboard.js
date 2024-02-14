@@ -68,7 +68,7 @@ const TeacherDashboard = () => {
     }, []);
     const cld = new Cloudinary({
         cloud: {
-          cloudName: 'dwgwcghfh'
+          cloudName: 'dqnptsuxt'
         }
     })
     useEffect(() => {
@@ -148,7 +148,7 @@ const TeacherDashboard = () => {
                                 </button>
                                 <div id="demo22" className="collapse" style={{backgroundColor:"rgb(237, 237, 237)",borderRadius:"10px"}}>
                                     <ul className="ms-3" style={{listStyle:"none"}}>
-                                        <li><a className="dropdown-item navddi text-dark py-1" href="/postassign" target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i> Post Assignments</a></li>
+                                        <li><a style={{fontSize:"12px"}} className="dropdown-item navddi text-dark py-1" href="/postassign" target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i> Post Assignments</a></li>
                                     </ul>
                                 </div>
                                 <button className='d-flex sdashselect px-0 py-2 border-0' data-bs-toggle="collapse" data-bs-target="#demo22ca" style={{width:"100%",backgroundColor:"transparent"}}>
@@ -157,7 +157,7 @@ const TeacherDashboard = () => {
                                 </button>
                                 <div id="demo22ca" className="collapse" style={{backgroundColor:"rgb(237, 237, 237)",borderRadius:"10px"}}>
                                     <ul className="ms-3" style={{listStyle:"none"}}>
-                                        <li><a className="dropdown-item navddi text-dark py-1" href="/postca" target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i> Post CA</a></li>
+                                        <li><a style={{fontSize:"12px"}} className="dropdown-item navddi text-dark py-1" href="/postca" target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i> Post CA</a></li>
                                     </ul>
                                 </div>
                                 <button className='d-flex sdashselect px-0 py-2 border-0' data-bs-toggle="collapse" data-bs-target="#demo22ex" style={{width:"100%",backgroundColor:"transparent"}}>
@@ -166,7 +166,7 @@ const TeacherDashboard = () => {
                                 </button>
                                 <div id="demo22ex" className="collapse" style={{backgroundColor:"rgb(237, 237, 237)",borderRadius:"10px"}}>
                                     <ul className="ms-3" style={{listStyle:"none"}}>
-                                        <li><a className="dropdown-item navddi text-dark py-1" href="/postexam" target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i> Post Exam</a></li>
+                                        <li><a style={{fontSize:"12px"}} className="dropdown-item navddi text-dark py-1" href="/postexam" target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i> Post Exam</a></li>
                                     </ul>
                                 </div>
                                 <button className='d-flex sdashselect px-0 py-2 border-0' data-bs-toggle="collapse" data-bs-target="#demo6" style={{width:"100%",backgroundColor:"transparent"}}>
@@ -175,8 +175,8 @@ const TeacherDashboard = () => {
                                 </button>
                                 <div id="demo6" className="collapse" style={{backgroundColor:"rgb(237, 237, 237)",borderRadius:"10px"}}>
                                     <ul className="ms-3" style={{listStyle:"none"}}>
-                                        <li><a className="dropdown-item navddi text-dark py-1" href="/uploadresult" target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i> Upload Results</a></li>
-                                        <li><a className="dropdown-item navddi text-dark py-1" href="/tviewresults" target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i> View Results</a></li>
+                                        <li><a style={{fontSize:"12px"}} className="dropdown-item navddi text-dark py-1" href="/uploadresult" target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i> Upload Results</a></li>
+                                        <li><a style={{fontSize:"12px"}} className="dropdown-item navddi text-dark py-1" href="/tviewresults" target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i> View Results</a></li>
                                     </ul>
                                 </div>
                                 {classes && myClasses && classes.length > 0 && myClasses.length > 0 &&
@@ -187,8 +187,8 @@ const TeacherDashboard = () => {
                                 </button>
                                 <div id="atdemo6" className="collapse" style={{backgroundColor:"rgb(237, 237, 237)",borderRadius:"10px"}}>
                                     <ul className="ms-3" style={{listStyle:"none"}}>
-                                        <li><a className="dropdown-item navddi text-dark py-1" href="/attendance" target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i> Mark Attendance</a></li>
-                                        {/* <li><a className="dropdown-item navddi text-dark py-1" href="/tviewresults" target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i> View Results</a></li> */}
+                                        <li><a style={{fontSize:"12px"}} className="dropdown-item navddi text-dark py-1" href="/attendance" target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i> Mark Attendance</a></li>
+                                        {/* <li><a style={{fontSize:"12px"}} className="dropdown-item navddi text-dark py-1" href="/tviewresults" target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i> View Results</a></li> */}
                                     </ul>
                                 </div>
                                 </>}
@@ -198,7 +198,7 @@ const TeacherDashboard = () => {
                                 </button>
                                 <div id="demo3" className="collapse" style={{backgroundColor:"rgb(237, 237, 237)",borderRadius:"10px"}}>
                                     <ul className="ms-3" style={{listStyle:"none"}}>
-                                        <li><a className="dropdown-item navddi text-dark py-1" href="/tpass" target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i>Change Password</a></li>
+                                        <li><a style={{fontSize:"12px"}} className="dropdown-item navddi text-dark py-1" href="/tpass" target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i>Change Password</a></li>
                                     </ul>
                                 </div>
                             </div>

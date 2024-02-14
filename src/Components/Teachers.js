@@ -23,7 +23,7 @@ const Teachers = () => {
     }, [dispatch])
     const cld = new Cloudinary({
         cloud: {
-          cloudName: 'dwgwcghfh'
+          cloudName: 'dqnptsuxt'
         }
     })
 

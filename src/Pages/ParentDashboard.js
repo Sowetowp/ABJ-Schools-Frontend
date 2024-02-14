@@ -64,7 +64,7 @@ const ParentDashboard = () => {
     }, []);
     const cld = new Cloudinary({
         cloud: {
-          cloudName: 'dwgwcghfh'
+          cloudName: 'dqnptsuxt'
         }
     })
     useEffect(() => {
@@ -146,9 +146,9 @@ const ParentDashboard = () => {
                                 </button>
                                 <div id={"d" + ch._id} className="collapse" style={{backgroundColor:"rgb(237, 237, 237)",borderRadius:"10px"}}>
                                     <ul className="ms-3" style={{listStyle:"none"}}>
-                                        <li><a className="dropdown-item navddi text-dark py-1" href={`/chfee/${ch._id}`} target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i> {ch.lastName} {ch.firstName} Details</a></li>
-                                        <li><a className="dropdown-item navddi text-dark py-1" href={`/presult/${ch._id}`} target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i> Results</a></li>
-                                        <li><a className="dropdown-item navddi text-dark py-1" href={`/pattendance/${ch._id}`} target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i> Attendance</a></li>
+                                        <li><a style={{fontSize:"12px"}} className="dropdown-item navddi text-dark py-1" href={`/chfee/${ch._id}`} target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i> {ch.lastName} {ch.firstName} Details</a></li>
+                                        <li><a style={{fontSize:"12px"}} className="dropdown-item navddi text-dark py-1" href={`/presult/${ch._id}`} target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i> Results</a></li>
+                                        <li><a style={{fontSize:"12px"}} className="dropdown-item navddi text-dark py-1" href={`/pattendance/${ch._id}`} target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i> Attendance</a></li>
                                     </ul>
                                 </div>
                                 </>)}
@@ -158,7 +158,7 @@ const ParentDashboard = () => {
                                 </button>
                                 <div id="demo3" className="collapse" style={{backgroundColor:"rgb(237, 237, 237)",borderRadius:"10px"}}>
                                     <ul className="ms-3" style={{listStyle:"none"}}>
-                                        <li><a className="dropdown-item navddi text-dark py-1" href="/tpass" target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i>Change Password</a></li>
+                                        <li><a style={{fontSize:"12px"}} className="dropdown-item navddi text-dark py-1" href="/tpass" target='frame' onClick={ window.innerWidth >= 1200 ? null : toggle }><i className="fas me-2 sdashhic2 fa-arrow-right"></i>Change Password</a></li>
                                     </ul>
                                 </div>
                             </div>

@@ -72,7 +72,10 @@ const AddTeacher = () => {
     const handleSelectChangec = (e) => {
         const value = e.target.value;
         if (e.target.checked) {
-            setAccess((prevSelectedValues) => [...prevSelectedValues, value]);
+            const sub = access.find((ee)=> ee === value)
+            if(!sub){
+                setAccess((prevSelectedValues) => [...prevSelectedValues, value]);
+            }
         } else {
             setAccess((prevSelectedValues) =>
                 prevSelectedValues.filter((item) => item !== value)
@@ -82,7 +85,10 @@ const AddTeacher = () => {
     const handleSelectChanged = (e) => {
         const value = e.target.value;
         if (e.target.checked) {
-            setDepartment((prevSelectedValues) => [...prevSelectedValues, value]);
+            const sub = department.find((ee)=> ee === value)
+            if(!sub){
+                setDepartment((prevSelectedValues) => [...prevSelectedValues, value]);
+            }
         } else {
             setDepartment((prevSelectedValues) =>
                 prevSelectedValues.filter((item) => item !== value)
@@ -92,7 +98,10 @@ const AddTeacher = () => {
     const handleSelectChangep = (e) => {
         const value = e.target.value;
         if (e.target.checked) {
-            setPost((prevSelectedValues) => [...prevSelectedValues, value]);
+            const sub = post.find((ee)=> ee === value)
+            if(!sub){
+                setPost((prevSelectedValues) => [...prevSelectedValues, value]);
+            }
         } else {
             setPost((prevSelectedValues) =>
                 prevSelectedValues.filter((item) => item !== value)
@@ -102,7 +111,10 @@ const AddTeacher = () => {
     const handleSelectChange = (e) => {
         const value = e.target.value;
         if (e.target.checked) {
-            setSubject((prevSelectedValues) => [...prevSelectedValues, value]);
+            const sub = subject.find((ee)=> ee === value)
+            if(!sub){
+                setSubject((prevSelectedValues) => [...prevSelectedValues, value]);
+            }
         } else {
             setSubject((prevSelectedValues) =>
                 prevSelectedValues.filter((item) => item !== value)
@@ -220,10 +232,10 @@ const AddTeacher = () => {
                                                 </div>
                                                 <div className='col-md-6'>
                                                     <p className='swalfunp2 mt-3'>Department:</p>
-                                                    <span className='swalfunselact form-control form-select-sm' data-bs-toggle="collapse" data-bs-target="#demo2">
+                                                    <span className='swalfunselact form-control form-select-sm' data-bs-toggle="collapse" data-bs-target="#demo2d">
                                                         Select Department(s):
                                                     </span>
-                                                    <div id="demo2" className="collapse">
+                                                    <div id="demo2d" className="collapse">
                                                         {departments && departments.map(sub =>
                                                             <div className='px-2'>
                                                                 <label className='' style={{ fontWeight: "lighter", fontSize: "12px" }}>
@@ -235,10 +247,10 @@ const AddTeacher = () => {
                                                 </div>
                                                 <div className='col-md-6'>
                                                     <p className='swalfunp2 mt-3'>Subject:</p>
-                                                    <span className='swalfunselact form-control form-select-sm' data-bs-toggle="collapse" data-bs-target="#demo2">
+                                                    <span className='swalfunselact form-control form-select-sm' data-bs-toggle="collapse" data-bs-target="#demo2s">
                                                         Select subject(s):
                                                     </span>
-                                                    <div id="demo2" className="collapse">
+                                                    <div id="demo2s" className="collapse">
                                                         {subjects && subjects.map(sub =>
                                                             <div className='px-2'>
                                                                 <label className='' style={{ fontWeight: "lighter", fontSize: "12px" }}>
@@ -250,10 +262,10 @@ const AddTeacher = () => {
                                                 </div>
                                                 <div className='col-md-6'>
                                                     <p className='swalfunp2 mt-3'>Post:</p>
-                                                    <span className='swalfunselact form-control form-select-sm' data-bs-toggle="collapse" data-bs-target="#demo2">
+                                                    <span className='swalfunselact form-control form-select-sm' data-bs-toggle="collapse" data-bs-target="#demo2p">
                                                         Select Post(s):
                                                     </span>
-                                                    <div id="demo2" className="collapse">
+                                                    <div id="demo2p" className="collapse">
                                                         {posts && posts.teachers.map(sub =>
                                                             <div className='px-2'>
                                                                 <label className='' style={{ fontWeight: "lighter", fontSize: "12px" }}>
@@ -265,10 +277,10 @@ const AddTeacher = () => {
                                                 </div>
                                                 <div className='col-md-6'>
                                                     <p className='swalfunp2 mt-3'>Access:</p>
-                                                    <span className='swalfunselact form-control form-select-sm' data-bs-toggle="collapse" data-bs-target="#demo2">
+                                                    <span className='swalfunselact form-control form-select-sm' data-bs-toggle="collapse" data-bs-target="#demo2c">
                                                         Select Accessible Classes:
                                                     </span>
-                                                    <div id="demo2" className="collapse">
+                                                    <div id="demo2c" className="collapse">
                                                         {classes && classes.map(sub =>
                                                             <div className='px-2'>
                                                                 <label className='' style={{ fontWeight: "lighter", fontSize: "12px" }}>

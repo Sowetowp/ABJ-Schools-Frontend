@@ -100,7 +100,7 @@ const ViewCalendar = () => {
     const dispatch = useDispatch()
     const cld = new Cloudinary({
         cloud: {
-          cloudName: 'dwgwcghfh'
+          cloudName: 'dqnptsuxt'
         }
     })
 

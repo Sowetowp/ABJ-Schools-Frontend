@@ -25,7 +25,7 @@ const Oln = () => {
 
     const cld = new Cloudinary({
         cloud: {
-          cloudName: 'dwgwcghfh'
+          cloudName: 'dqnptsuxt'
         }
     })
 

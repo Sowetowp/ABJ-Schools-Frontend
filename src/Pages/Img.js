@@ -14,7 +14,7 @@ const Img = ({uploadedImage}) => {
   
   const cld = new Cloudinary({
     cloud: {
-      cloudName: 'dwgwcghfh'
+      cloudName: 'dqnptsuxt'
     }
   })
   const myImage = cld.image(uploadedImage)

@@ -25,7 +25,7 @@ const Wov = () => {
     // }, [dispatch])
     const cld = new Cloudinary({
         cloud: {
-          cloudName: 'dwgwcghfh'
+          cloudName: 'dqnptsuxt'
         }
     })
     

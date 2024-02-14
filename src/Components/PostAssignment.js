@@ -30,7 +30,10 @@ const PostAssignment = () => {
   const handleSelectChangec = (e) => {
     const value = e.target.value;
     if (e.target.checked) {
-      setClasses((prevSelectedValues) => [...prevSelectedValues, value]);
+      const sub = classes.find((ee)=> ee === value)
+        if(!sub){
+          setClasses((prevSelectedValues) => [...prevSelectedValues, value]);
+        }
     } else {
       setClasses((prevSelectedValues) =>
         prevSelectedValues.filter((item) => item !== value)

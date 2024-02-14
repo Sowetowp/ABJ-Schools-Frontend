@@ -23,14 +23,17 @@ const PostExam = () => {
   useEffect(() => {
     dispatch(get_all_session())
   }, [dispatch])
-  
+
   const getAllSession = useSelector((state) => state.getAllSession)
   const { allsession } = getAllSession
 
   const handleSelectChangec = (e) => {
     const value = e.target.value;
     if (e.target.checked) {
-      setClasses((prevSelectedValues) => [...prevSelectedValues, value]);
+      const sub = classes.find((ee) => ee === value)
+      if (!sub) {
+        setClasses((prevSelectedValues) => [...prevSelectedValues, value]);
+      }
     } else {
       setClasses((prevSelectedValues) =>
         prevSelectedValues.filter((item) => item !== value)
@@ -41,7 +44,7 @@ const PostExam = () => {
 
   const submitHandler = (e) => {
     e.preventDefault()
-    if(allsession && allsession.term.length > 0){
+    if (allsession && allsession.term.length > 0) {
       const tea = {
         title,
         classes,
@@ -109,7 +112,7 @@ const PostExam = () => {
       };
       setQuestions(prevForms => [...prevForms, newQuestion]);
     }
-    
+
   };
 
   const radiosela = (id, qt, id2, h) => {
@@ -151,7 +154,7 @@ const PostExam = () => {
         setQuestions(prevForms => [...prevForms, newQuestion]);
       }
     }
-    
+
   };
 
   const radioselb = (id, qt, id2, h) => {
@@ -193,7 +196,7 @@ const PostExam = () => {
         setQuestions(prevForms => [...prevForms, newQuestion]);
       }
     }
-    
+
   };
 
   const radioselc = (id, qt, id2, h) => {
@@ -235,7 +238,7 @@ const PostExam = () => {
         setQuestions(prevForms => [...prevForms, newQuestion]);
       }
     }
-    
+
   };
 
   const radioseld = (id, qt, id2, h) => {
@@ -277,7 +280,7 @@ const PostExam = () => {
         setQuestions(prevForms => [...prevForms, newQuestion]);
       }
     }
-    
+
   };
   return (
     <>
@@ -293,7 +296,7 @@ const PostExam = () => {
               </div>
               <div className='p-3'>
                 <fieldset className='border swalfunfs px-3 pb-3'>
-                  <legend className='border swalfunlegend ms-4'><img src={bank} style={{width:"42px"}}/></legend>
+                  <legend className='border swalfunlegend ms-4'><img src={bank} style={{ width: "42px" }} /></legend>
                   <form onSubmit={submitHandler} className='ateafo2'>
                     <h3 className='mt-5 '>Examination Details</h3>
                     <div className='row'>
